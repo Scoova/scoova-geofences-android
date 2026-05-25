@@ -40,7 +40,7 @@ publishing {
             from(components["java"])
 
             groupId = "info.scoo-va"
-            artifactId = "geofences"
+            artifactId = "scoova-geofences-android"
             version = project.version.toString()
 
             pom {
