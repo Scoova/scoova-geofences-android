@@ -86,7 +86,7 @@ publishing {
             }
         }
 
-        // Maven Central — picked up by Sonatype when OSSRH_* env is set.
+        // Maven Central staging.
         maven {
             name = "MavenCentral"
             val releasesUrl = uri("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/")

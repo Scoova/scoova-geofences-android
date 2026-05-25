@@ -12,4 +12,4 @@ Initial release.
 - API key from constructor, falling back to `SCOOVA_API_KEY` env, falling back to `'demo'`
 - OkHttp transport with `withContext(Dispatchers.IO)` coroutine bridging
 - kotlinx.serialization for typed `Geofence` / `GeofenceCheckResult` decoding
-- JVM 17 target, Kotlin 2.0.21
+- JVM 17 target
