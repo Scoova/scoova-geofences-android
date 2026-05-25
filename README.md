@@ -10,21 +10,11 @@ set of regions.
 
 ## Install
 
-### JitPack
-
-```kotlin
-repositories { maven("https://jitpack.io") }
-
-dependencies {
-    implementation("com.github.Scoova:scoova-geofences-android:1.0.0")
-}
-```
-
 ### GitHub Packages / Maven Central
 
 ```kotlin
 dependencies {
-    implementation("info.scoo-va:geofences:1.0.0")
+    implementation("info.scoo-va:scoova-geofences-android:1.0.3")
 }
 ```
 
