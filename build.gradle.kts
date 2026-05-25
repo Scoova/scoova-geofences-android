@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "info.scoo-va"
-version = "1.0.2"
+version = "1.0.3"
 
 repositories { mavenCentral() }
 
@@ -23,6 +23,7 @@ kotlin { jvmToolchain(17) }
 
 java {
     withSourcesJar()
+    withJavadocJar()
 }
 
 tasks.test { useJUnitPlatform() }
